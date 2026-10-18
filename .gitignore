@@ -1,0 +1,55 @@
+# Zig build caches
+.zig-cache/
+.zig-global-cache/
+zig-cache/
+
+# Local Zig toolchains and downloaded archives
+vendor/zig/
+vendor/zig_toolchain/
+zig-*.zip
+zig-*.tar.xz
+scs_sdk_*.zip
+
+# Unused examples from the vendored SCS SDK
+vendor/scs_sdk/examples/
+
+# Build outputs
+dist/
+*.dll
+*.exe
+*.lib
+*.exp
+*.pdb
+*.obj
+*.o
+
+# Generated test binaries
+tests/*.exe
+tests/*.pdb
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.VC.opendb
+
+# JetBrains IDEs
+.idea/
+cmake-build-*/
+
+# Windows and editor temporary files
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Local logs
+*.log
+
